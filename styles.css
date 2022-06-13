@@ -1,0 +1,105 @@
+/* STYLING
+    -The focus of the CA is on JavaScript, not styling. Yet, as a front-end developer you will always need to produce user-interfaces that make sense and are easy to follow. You will need to provide navigation to and from the home page (index.html) and the contact page.
+    - Both API calls should include a loading indicator. */
+
+body {
+    background: #d1d1d1;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: darkorange;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.3rem;
+}
+
+.container, #callvalidation {
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    width: 350px;
+    margin: 20px auto;
+    padding: 40px;
+    border: 3px solid gray;
+    border-radius: 50px;
+    background: white;
+    text-align: center;
+}
+
+.result {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+strong {
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right: 10px;
+    color:forestgreen;
+}
+
+#infoForm {
+    padding: 20px 50px;
+    text-align: left;
+}
+
+label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input {
+    margin: auto auto 30px auto;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#submit {
+    text-align: center;
+    padding: 8px 5px;
+    width: 150px;
+    background-color: darkorange;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.3rem;
+    border: 3px solid brown;
+    border-radius: 10px;
+}
